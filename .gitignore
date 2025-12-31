@@ -11,14 +11,13 @@ build/
 .DS_Store
 Thumbs.db
 
-# WordPress Config & Uploads (Optional - security & size)
-blog/wp-config.php
-blog/wp-content/uploads/
+# Allow WordPress Config & Uploads for easy cloning (Warning: Security Risk for Public Repos)
+# blog/wp-config.php
+# blog/wp-content/uploads/
 
-# Environment variables
-.env
-.env.local
-.env.*
+# Allow Environment variables for easy running
+# .env
+# .env.local
 
 # Logs
 npm-debug.log*
@@ -30,6 +29,5 @@ php_error.log
 .vscode/
 .idea/
 
-# SQL Backups
-*.sql
-*.sql.gz
+# Allow SQL Backups
+# *.sql
